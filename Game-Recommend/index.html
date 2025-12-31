@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamezone</title>
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
     <header id="goup">
@@ -20,173 +21,186 @@
     <main>
         <h1>Welcome To The Gaming Recommendation Web Page</h1>
         
-                <div>
+                <div id="Welcome-section">
                     <p>Find your next favorite game with our easy-to-use recommendation page. 
                         Whether you're into action, adventure, RPGs, or horror games, we've got you covered.
                         Use the links below to explore games by genre and discover new titles that match your interests.
                     </p>
-                    <h2>Explore by Genre:</h2>    
-                    <a href="#Action">Action</a> |
-                    <a href="#Adventure">Adventure</a> |
-                    <a href="#Multiplayer">Multiplayer</a> |
-                    <a href="#Horror">Horror</a>
+                    <h2>Explore by Genre:</h2>
+                    <span> <a href="#Action">Action</a></span>    
+                    <span><a href="#Adventure">Adventure</a></span>
+                    <span><a href="#Multiplayer">Multiplayer</a></span>
+                    <span><a href="#Horror">Horror</a></span>
 
                 </div>
         
                 <div class="game-list">
-                     <table border="1" cellpadding="5" cellspacing="40" width="100%">
-                            <tr align="center">
-                                <td>
                                     <div id="Action">
-                                        <table border="1" cellpadding="5" cellspacing="0" width="80%">
-                                                <tr>
-                                                    <th colspan="4">Top Action Games</th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Image</th>
-                                                    <th>Game Title</th>
-                                                    <th>Release Year</th>
-                                                    <th>Platform</th>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/Enden_Ring.jpg" alt=""></td>
-                                                    <td>Elden Ring</td>
-                                                    <td>2022</td>
-                                                    <td>PC, PS4, PS5, Xbox One, Xbox Series X/S</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/God_of_war_ragnarok.jpg" alt=""></td>
-                                                    <td>God of War Ragnarok</td>
-                                                    <td>2022</td>
-                                                    <td>PS4, PS5</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/sekiro.jpg" alt=""></td>
-                                                    <td>Sekiro: Shadows Die Twice</td>
-                                                    <td>2019</td>
-                                                    <td>PC, PS4, Xbox One</td>
-                                                </tr>
-                                        </table>
+                                        <h2>Top Action game</h2>
+                                            <div class="contents">
+                                                <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/Enden_Ring.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                        <h3>Elden Ring</h3>
+                                                        <p>Release: <time datetime="">2022</time></p>
+                                                        <p>Platform: 
+                                                            <span>PC</span>
+                                                            <span>PS4</span>
+                                                            <span>PS5</span>
+                                                            <span>Xbox One</span>
+                                                            <span>Xbox Series X/S</span>
+                                                        </p>
+                                                    </div>
+                                                   
+                                                </div>
+
+                                                <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/God_of_war_ragnarok.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                        <h3>God of War Ragnarok</h3>
+                                                        <p>Release: <time datetime="">2022</time></p>
+                                                        <p>platform: 
+                                                            <span>PS4, PS5</span>
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+
+                                                <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/sekiro.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                            <h3>Sekiro: Shadows Die Twice</h3>
+                                                            <p>Release: <time datetime="">2019</time></p>
+                                                            <p> Platform: <span>PC, PS4, Xbox One</span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                     </div>
-                                </td>
-                            </tr>
  
 
                             <!--------Adventure------>
-                            <tr align="center">
-                                <td>
                                     <div id="Adventure">
-                                        <table border="1" cellpadding="5" cellspacing="0" width="80%">
-                                                <tr>
-                                                    <th colspan="4">Top Adventure Games</th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Image</th>
-                                                    <th>Game Title</th>
-                                                    <th>Release Year</th>
-                                                    <th>Platform</th>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/Last_of_us.jpg" alt=""></td>    
-                                                    <td>Last of Us Part I</td>
-                                                    <td>2022</td>
-                                                    <td>PC, PS5</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/Red_dead_redemption_2.jpg" alt=""></td>
-                                                    <td>Red Dead Redemption 2</td>
-                                                    <td>2018</td>
-                                                    <td>PC, PS4, Xbox One</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/The_witcher_3.jpg" alt=""></td>
-                                                    <td>The Witcher 3: Wild Hunt</td>
-                                                    <td>2015</td>
-                                                    <td>PC, PS4, Xbox One, Nintendo Switch</td>
-                                                </tr> 
-                                        </table>
+                                       <h2>Top Adventure Game</h2>
+                                        <div class="contents">
+                                            <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/Last_of_us.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                        <h3>Last of Us Part I</h3>
+                                                        <p>Release: <time datetime="">2022</time></p>
+                                                        <p>Platform: <span>PC, PS5</span></p>
+                                                    </div>  
+                                            </div>
+                                            <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/Red_dead_redemption_2.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                        <h3>Red Dead Redemption 2</h3>
+                                                        <p>Release: <time datetime="">2018</time></p>
+                                                        <p>Platform: <span>PC, PS4, Xbox One</span></p>
+                                                    </div>
+                                            </div>
+                                            <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/The_witcher_3.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                        <h3>The Witcher 3: Wild Hunt</h3>
+                                                        <p>Release: <time datetime="">2015</time></p>
+                                                        <p>Platform: <span>PC, PS4, Xbox One, Nintendo Switch</span></p>
+                                                    </div>
+                                            </div> 
+                                        </div>
                                     </div>
-                                </td>
-                            </tr>
 
 
                             <!-----Multiplayer----->
-                            <tr align="center">
-                                <td>
                                     <div id="Multiplayer">
-                                        <table  border="1" cellpadding="5" cellspacing="0" width="80%">  
-                                                    <tr>
-                                                        <th colspan="4">Top Multiplayer Games</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <th>Image</th>
-                                                        <th>Game Title</th>
-                                                        <th>Release Year</th>
-                                                        <th>Platform</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="images/Grand_Theft_Auto_V.png" alt=""></td>
-                                                        <td>Grand Theft Auto V</td>
-                                                        <td>2013</td>
-                                                        <td>PC, PS3, PS4, Xbox 360, Xbox One</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="images/Valorant.jpg" alt=""></td>
-                                                        <td>Valorant</td>
-                                                        <td>2020</td>
-                                                        <td>PC</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="images/RV_there_yet.jpg" alt=""></td>
-                                                        <td>Rv there yet</td>
-                                                        <td>2025</td>
-                                                        <td>PC, PS4, PS5, Xbox One, Xbox Series X/S</td>
-                                                    </tr>
-                                        </table>
+                                       <h2>Top co-op game</h2>
+                                       <div class="contents">
+                                                    <div class="game_card">
+                                                        <figure id="game_picture"><img src="images/Grand_Theft_Auto_V.png" alt=""></figure>
+                                                        <div class="game-info">
+                                                            <h3>Grand Theft Auto V</h3>
+                                                            <p>Release: <time datetime="">2013</time></p>
+                                                            <p>Platform: <span>PC, PS3, PS4, Xbox 360, Xbox One</span></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="game_card">
+                                                        <figure id="game_picture"><img src="images/Valorant.jpg" alt=""></figure>
+                                                        <div class="game-info">
+                                                            <h3>Valorant</h3>
+                                                            <p>Release: <time datetime="">2020</time></p>
+                                                            <p>platform: <span>PC</span></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="game_card">
+                                                        <figure id="game_picture"><img src="images/RV_there_yet.jpg" alt=""></figure>
+                                                        <div class="game-info">
+                                                            <h3>Rv there yet</h3>
+                                                            <p>Release: <time datetime="">2025</time></p>
+                                                            <p>platform: <span>PC, PS4, PS5, Xbox One, Xbox Series X/S</span></p>
+                                                        </div>
+                                                    </div>
+                                       </div>
                                     </div>
-                                </td>
-                            </tr>
 
 
                             <!-------Horror------>
-                            <tr align="center">
-                                <td>
                                     <div id="Horror">
-                                        <table border="1" cellpadding="5" cellspacing="0" width="80%">
-                                                <tr>
-                                                    <th colspan="4">Top Horror Games</th>
-                                                </tr>
-                                                <tr>
-                                                    <th>Image</th>
-                                                    <th>Game Title</th>
-                                                    <th>Release Year</th>
-                                                    <th>Platform</th>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/Resident_evil_village.jpg" alt=""></td>
-                                                    <td>Resident Evil Village</td>
-                                                    <td>2021</td>
-                                                    <td>PC, PS4, PS5, Xbox One, Xbox Series X/S</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/Dying_light_Beast.jpg" alt=""></td>
-                                                    <td>Dying Light</td>
-                                                    <td>2015</td>
-                                                    <td>PC, PS4, Xbox One</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="images/The_EvilWithin.jpg" alt=""></td>
-                                                    <td>The Evil Within</td>
-                                                    <td>2014</td>
-                                                    <td>PC, PS3, Xbox 360</td>
-                                                </tr>
-                                        </table>
+                                        <h2>Top horror game</h2>
+                                        <div class="contents">
+                                                <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/Resident_evil_village.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                        <h3>Resident Evil Village</h3>
+                                                        <p>Release: <time datetime="">2021</time></p>
+                                                        <p>Platform: 
+                                                            <span>PC</span>
+                                                            <span>PS4</span>
+                                                            <span>PS5</span>
+                                                            <span>Xbox One</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="game_card">
+                                                    <figure id="game_picture">
+                                                        <img src="images/Dying_light_Beast.jpg" alt="">
+                                                    </figure>
+                                                    <div class="game-info">
+                                                        <h3>Dying Light</h3>
+                                                        <p>Release: <time datetime="">2015</time></p>
+                                                        <p>Platform:
+                                                            <span>PC</span>
+                                                            <span>PS4</span>
+                                                            <span>Xbox One</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="game_card">
+                                                    <figure id="game_picture"><img src="images/The_EvilWithin.jpg" alt=""></figure>
+                                                    <div class="game-info">
+                                                        <h3>The Evil Within</h3>
+                                                        <p>Release: <time datetime="">2014</time></p>
+                                                        <p>Platform:
+                                                            <span>PC</span>
+                                                            <span>PS3</span>
+                                                            <span>Xbox 360</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                        </div>
                                     </div>
-                                </td>
-                            </tr>
-
-                        </table>
-
                 </div>
     </main>
 
@@ -201,22 +215,12 @@
                 </p>
                 <div><p>&#169; 2025 Game recommendations</p></div> 
             </div>
-             
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="ContactUs.html">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div>
            
-            <div>
+            <div id="followup">
                 <p>Follow us on social media:</p>
-                <a href="https://www.facebook.com/">Facebook</a> |
-                <a href="https://www.twitter.com/">Twitter</a> |
-                <a href="https://www.instagram.com/">Instagram</a> |
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.twitter.com/">Twitter</a>
+                <a href="https://www.instagram.com/">Instagram</a>
                 <a href="https://www.discord.com/">Discord</a>
             </div>
 
