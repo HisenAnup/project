@@ -1,4 +1,6 @@
- body{
+ /* Global Styles */
+
+body{
     background-color: #121212;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -22,7 +24,8 @@ p{
     width: 100%;
 }
 
- header{
+ /* Header style section */
+  header{
     background-color: white;
     width: 100%;
 }
@@ -34,7 +37,8 @@ header h1{
 
 header nav{
     width: 100%;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
  }
 
 header ul{
@@ -48,19 +52,22 @@ header ul{
     text-align: center;
 }
 
- header li a{
+header li a{
     padding: 10px;
     text-decoration: none;
     color: black;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 1000;
+    font-size: 15px;
  }
 
- header li a:hover{
+header li a:hover{
     background-color: rgb(234, 230, 230);
     border-radius: 8px;
 }
 
+ 
+ /* Middle section style */
+ 
  h1{
     font-weight: 700;
     letter-spacing: 2px;
@@ -83,60 +90,49 @@ header ul{
     text-decoration: none;
 }
 
-#Action, #Adventure, #RPG, #Horror{
+#Action, #Adventure, #Multiplayer, #Horror{
     margin: 20px 0;
     padding: 20px;
     background-color: #2a2a2a;
     border-radius: 8px;
 }
 
-footer{
-  background-color: #007BFF;
-  padding: 20px;
-  border-radius: 8px;
+
+.game-list h2{
+    text-align: center;
 }
 
-#footer #followup a{
-    text-decoration: none;
-    color: white;
+span{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 8px;
+    background-color: #333;
 }
-
-
-        .game-list h2{
-            text-align: center;
-        }
-
-        span{
-            display: inline-block;
-            border: 1px solid black;
-            padding: 3px 8px;
-            border-radius: 8px;
-            background-color: #333;
-        }
 
         
-        img{
-            width: 100%;
-            align-items: center;
-            height: auto;
-            display: block;
-        }
+img{
+     width: 100%;
+    align-items: center;
+    height: auto;
+    display: block;
+}
 
-        time{
-            color: #cdcccc;
-        }
+time{
+    color: #cdcccc;
+}
 
-        .game-info{
-            padding: 30px;
-        }
+.game-info{
+    padding: 30px;
+}
 
-        .game_card{
-            background-color: #1a1a1a;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 500px;
-            color: #ffffff;
-        }
+.game_card{
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    color: #ffffff;
+}
 
 .game_card:hover{
     transform: translateY(-10px);
@@ -170,3 +166,16 @@ footer{
             gap: 15px;
         }
 }
+
+/* bottom section style */
+footer{
+  background-color: #007BFF;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#footer #followup a{
+    text-decoration: none;
+    color: white;
+}
+

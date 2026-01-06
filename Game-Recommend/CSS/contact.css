@@ -1,0 +1,44 @@
+fieldset{
+    background-color: #262828;
+    margin: 20px;
+    padding: 20px;
+    color: #FFCDA2;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+label, input, textarea{
+    
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #FFCDA2;
+    color: #5B7B7A;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+    width: 30%;
+}
+
+
+#submit-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: #FF9E6D;
+}
