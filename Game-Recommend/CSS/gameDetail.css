@@ -1,9 +1,9 @@
 /*---------------------------- global style section -----------------------------------*/
 body{
     background-color: #121212;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Verdana;
     margin: 0;
-    padding: 0;
+    padding: 8px;
     box-sizing: border-box;
 }
 
@@ -23,14 +23,16 @@ a:hover{
 p{
     line-height: 1.6;
     justify-content: justify;
+    color: rgb(170, 156, 156);
     width: 100%;
 }
 
 span:hover{
-   background-color: orangered;
-   transform: translateY(-5px);
-   border-style: solid;
-    border-color: black;
+    background-color: orangered;
+    transform: translateY(-5px);
+    border-style: solid;
+    font-weight: 500;
+    color: #121212;
     border-width: 2px;
     border-radius: 8px;
 }
@@ -88,7 +90,7 @@ main{
 
 img{
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(212, 17, 203, 0.521);
 }
 
 img:hover{
