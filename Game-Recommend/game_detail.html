@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home > game detail</title>
     <link rel="stylesheet" href="CSS/gameDetail.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 </head>
 
 <body>
-
-    <header id="goup">
+    <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,53 +19,31 @@
                 <li><a href="game_detail.html">Game details</a></li>
             </ul>
         </nav>
+
+        <div class="head-info">
+            <h1>Game Showcase</h1>
+            <p class="subtitle">Browse our collection of amazing games with detailed system requirements</p>
+        </div>
+        
+
     </header>
 
     
     <main>
-        <h1>Game Details</h1>
-                <div>
-                    <p>
-                        Welcome to the Game Details page! Here, you'll find in-depth information about some of the most popular and critically acclaimed video games across various genres. Whether you're a fan of action-packed adventures, immersive role-playing games, or thrilling horror experiences, we've got something for every gamer.
-                    </p>
-                    <h2>Explore by Genre:</h2>
-                    <span><a href="#Action">Action</a></span>
-                    <span><a href="#Adventure">Adventure</a></span>
-                    <span><a href="#Multiplayer">Multiplayer</a></span>
-                    <span><a href="#Horror">Horror</a></span>    
-                </div>
-    
-        <div class="Game-genre">
-            
-                <div class="action_game">
-                    <h2>Action Games</h2>
-                    <p>
-                        Experience heart-pounding excitement with our top action game picks.
-                        From fast-paced shooters to intense platformers, these games will
-                        keep you on the edge of your seat.
-                    </p>
-
-
+       <div class="card-container">
                     <!--first game-->
                         
                         <div class="Game-Detail">
                             <img src="images/Enden_Ring.jpg" alt="Elden Ring">
                             <div class="game-info">
-                                <h3 class="game-title">1. Elden Ring</h3>
-                                <p>
-                                    <label><b>Genre:</b></label>
-                                    <span>Action</span>
-                                    <span>RPG</span>
-                                    <span>Open World</span>
-                                </p>
+                                <h2 class="game-title">Elden Ring</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PC</span>
                                     <span>PlayStation</span>
                                     <span>Xbox</span>
                                 </div>
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         Elden Ring is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment.
                                         Set in a vast open world called the Lands Between, players take on the role of a Tarnished, a character seeking to become the Elden Lord
@@ -75,13 +54,13 @@
                                 </div>
                                 
                                 <div class="game-trailer">
-                                    <h4>Game Trailer</h4>
+                                    <h3>Game Trailer</h3>
                                     <iframe src="https://www.youtube.com/embed/E3Huy2cdih0" allowfullscreen></iframe>
                                 </div>
 
                                 <div class="Game-requirement">
-                                    <div>
-                                            <h4>Minimum Requirements:</h4>
+                                    <div class="min">
+                                            <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10</li>
                                             <li>Processor: Intel Core i5-8400</li>
@@ -91,8 +70,8 @@
                                         </ul>
                                     </div>
 
-                                    <div>
-                                        <h4>Recommended Requirements:</h4>
+                                    <div class="max">
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10/11</li>
                                             <li>Processor: Intel Core i7-8700K</li>
@@ -113,18 +92,13 @@
                         <div class="Game-Detail">
                             <img src="images/God_of_War_Ragnarok.jpg" alt="God of War Ragnarok">
                             <div class="game-info">
-                                <h3 class="game-title">2. God of War Ragnarok</h3>
-                                <p><label for="genre2">Genre:</label>, 
-                                    <span>Action</span>
-                                    <span>Adventure</span>
-                                </p>
+                                <h2 class="game-title">God of War Ragnarok</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PlayStation</span>
                                     <span>PC</span>
                                 </div>
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         God of War Ragnarok is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.
                                         It is the sequel to the 2018 game God of War and continues the story of Kratos and his son Atreus as they navigate the challenges of Norse mythology.
@@ -136,13 +110,13 @@
                                 </div>
 
                                 <div class="game-trailer">
-                                    <h4>Game Trailer</h4>
+                                    <h3>Game Trailer</h3>
                                     <iframe src="https://www.youtube.com/embed/EE-4GvjKcfs" width="450" height="300" allowfullscreen>
                                     </iframe>
                                 </div>
                                 <div class="Game-requirement">
                                     <div>
-                                        <h4>Minimum Requirements:</h4>
+                                        <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10</li>
                                             <li>Processor: Intel Core i5-2500K</li>
@@ -152,7 +126,7 @@
                                         </ul>
                                     </div>
                                     <div>
-                                        <h4>Recommended Requirements:</h4>
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10/11</li>
                                             <li>Processor: Intel Core i7-6700K</li>
@@ -172,19 +146,14 @@
                         <div class="Game-Detail">
                             <img src="images/sekiro.jpg">
                             <div class="game-info">
-                                <h3 class="game-title">3. Sekiro: Shadows Die Twice</h3>
-                                <p><label><b>Genre:</b></label>
-                                    <span> Action</span>
-                                    <span>Adventure</span>
-                                </p>
+                                <h2 class="game-title">Sekiro: Shadows Die Twice</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PC</span> 
                                     <span>PlayStation</span>
                                     <span>Xbox</span>
                                 </div>
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         Sekiro: Shadows Die Twice is an action-adventure game developed by FromSoftware and published by Activision.
                                         Set in a reimagined late 1500s Sengoku period Japan, players control a shinobi named Wolf as he embarks on a quest for revenge against a samurai clan who attacked him and kidnapped his lord.
@@ -195,12 +164,12 @@
                                     </p>
                                 </div>
                                 <div class="game-trailer">
-                                    <h4>Game Trailer</h4>
+                                    <h3>Game Trailer</h3>
                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4OgoTZXPACo?si=V-MrLYVjmro23C17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                                 <div class="Game-requirement">
                                     <div>
-                                        <h4>Minimum Requirements:</h4>
+                                        <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 7 64-bit</li>
                                             <li>Processor: Intel Core i3-2100 / AMD FX-6300</li>
@@ -210,7 +179,7 @@
                                         </ul>
                                     </div>
                                     <div>
-                                        <h4>Recommended Requirements:</h4>
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10 64-bit</li>
                                             <li>Processor: Intel Core i5-2500K / AMD Ryzen 5 1400</li>
@@ -223,36 +192,23 @@
                              </div>
                         </div>   
                      
-
-                </div> <!--end of action game-->
                 
 
-            
-                <div class="adventures_game">
-                    <h2 id="Adventure">Adventure Games</h2>
-                    <p>Embark on epic journeys and explore captivating worlds with our selection of adventure games. Solve puzzles, uncover secrets, and immerse yourself in rich storytelling.</p>
-                    
                     <!--first game-->
     
                        
                         <div class="Game-Detail">
                             <img src="images/Red_dead_redemption_2.jpg" alt="Red Dead Redemption 2">
                             <div class="game-info">
-                                    <h3 class="game-title">1. Red dead Redemption 2</h3>
-                                    <p><label><b>Genre:</b></label>
-                                        <span>Action</span>
-                                        <span>Adventure</span>
-                                        <span>Open World</span>
-                                    </p>
+                                    <h2 class="game-title">Red dead Redemption 2</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PC</span>
                                     <span>PlayStation</span>
                                     <span>Xbox</span>
                                 </div>
 
                                 <div class="about-section">
-                                        <h4>About This game</h4>
+                                        <h3>About This game</h3>
                                         <p>
                                             Red Dead Redemption 2 is an action-adventure game developed and published by Rockstar Games.
                                             Set in the American Wild West, players assume the role of Arthur Morgan, a member of the Van der Linde gang.
@@ -268,7 +224,7 @@
                                 </div>
                                 <div class="Game-requirement">
                                         <div>
-                                            <h4>Minimum Requirements:</h4>
+                                            <h3>Minimum Requirements:</h3>
                                             <ul>
                                                 <li>OS: Windows 7 - Service Pack 1 (6.1.7601)</li>
                                                 <li>Processor: Intel Core i5-2500K / AMD FX-6300</li>
@@ -279,7 +235,7 @@
                                         </div>
                                         
                                         <div>
-                                            <h4>Recommended Requirements:</h4>
+                                            <h3>Recommended Requirements:</h3>
                                             <ul>
                                                 <li>OS: Windows 10 - April 2018 Update (v1803)</li>
                                                 <li>Processor: Intel Core i7-4770K / AMD Ryzen 5 1500X</li>
@@ -299,20 +255,14 @@
                         <div class="Game-Detail">
                             <img src="images/The_witcher_3.jpg" alt="The Witcher 3: Wild Hunt">
                             <div class="game-info">
-                                <h3 class="game-title">2. The Witcher 3: Wild Hunt</h3>
-                                <p><label>Genre:</label>
-                                    <span>Action</span>
-                                    <span>Adventure</span>
-                                    <span>RPG</span>
-                                </p>
+                                <h2 class="game-title">The Witcher 3: Wild Hunt</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
-                                    <span>PC </span>
+                                    <span>PC</span>
                                     <span>PlayStation</span>
                                     <span>Xbox</span>
                                 </div>
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         The Witcher 3: Wild Hunt is an action role-playing game developed by CD Projekt Red.
                                         Players control Geralt of Rivia, a monster hunter known as a Witcher, as he embarks on a quest to find his adopted daughter.
@@ -327,7 +277,7 @@
                                 </div>
                                 <div class="Game-requirement">
                                     <div>
-                                        <h4>Minimum Requirements:</h4>
+                                        <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: 64-bit Windows 7 or 64-bit Windows 8 (8.1)</li>
                                             <li>Processor: Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940</li>
@@ -337,7 +287,7 @@
                                         </ul>
                                     </div>
                                     <div>
-                                        <h4>Recommended Requirements:</h4>
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: 64-bit Windows 10</li>
                                             <li>Processor: Intel Core i7 3770 3.4 GHz / AMD FX-8350 4 GHz</li>
@@ -358,20 +308,14 @@
                         <div class="Game-Detail">
                             <img src="images/Last_of_us.jpg" alt="Last of us Part I">
                             <div class="game-info">
-                                <h3 class="game-title">3. Last of Us Part I</h3>
-                                <p><label><b>Genre:</b></label>
-                                    <span>Action</span>
-                                    <span>Adventure</span>
-                                    <span>Horror</span>
-                                </p>
+                                <h2 class="game-title">Last of Us Part</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PlayStation</span>
                                     <span>PC</span>
                                 </div>
 
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         The Last of Us is an action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment.
                                         Set in a post-apocalyptic world, players control Joel, a smuggler tasked with escorting a young
@@ -382,12 +326,12 @@
                                 </div>
 
                                 <div class="game-trailer">
-                                    <h4>Game Trailer</h4>
+                                    <h3>Game Trailer</h3>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/46ohP30YA_Y?si=dIRDTBwWQ6os8lJ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                                 <div class="Game-requirement">
                                     <div>
-                                        <h4>Minimum Requirements:</h4>
+                                        <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10</li>
                                             <li>Processor: Intel Core i5-2500K</li>
@@ -398,7 +342,7 @@
                                     </div>
 
                                     <div>
-                                        <h4>Recommended Requirements:</h4>
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10/11</li>
                                             <li>Processor: Intel Core i7-6700K</li>
@@ -412,39 +356,20 @@
                         </div>
                      
 
-                
-                </div> <!--end of adventure game--> 
-            
-
-
-            
-                <div class="multiplayer_game">
-                    <h2 id="Multiplayer">Multiplayer Games</h2>
-                    <p>Connect and compete with players from around the world 
-                        in our selection of multiplayer games. Whether you prefer cooperative 
-                        gameplay or competitive matches, these games offer endless fun with friends.
-                    </p>
-
                     <!--first game-->
     
                     
                         <div class="Game-Detail">
                             <img src="images/Grand_Theft_Auto_V.png" alt="Grand Theft Auto V">
                             <div class="game-info">
-                                    <h3 class="game-title">1. Grand Theft Auto V</h3>
-                                    <p><label><b>Genre:</b></label>
-                                        <span>Action</span>
-                                        <span>Adventure</span>
-                                        <span>Multiplayer</span>
-                                    </p>
+                                    <h2 class="game-title">Grand Theft Auto V</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PC</span>
                                     <span>PlayStation</span>
                                     <span>Xbox</span>
                                 </div>
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         Grand Theft Auto V is an action-adventure game developed by Rockstar North and published by Rockstar Games.
                                         Set in the fictional state of San Andreas, players switch between three protagonists as they engage in a series of heists and criminal activities.
@@ -456,13 +381,13 @@
                                 </div>
 
                                 <div class="game-trailer">
-                                    <h4>Game Trailer</h4>
+                                    <h3>Game Trailer</h3>
                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QkkoHAzjnUs?si=NMOwef5WOWOltSBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
 
                                 <div class="Game-requirement">
                                     <div>
-                                        <h4>Minimum Requirements:</h4>
+                                        <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 7 64-bit</li>
                                             <li>Processor: Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz</li>
@@ -473,7 +398,7 @@
                                     </div>
 
                                     <div>
-                                        <h4>Recommended Requirements:</h4>
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10 64-bit</li>
                                             <li>Processor: Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)</li>
@@ -493,17 +418,12 @@
                         <div class="Game-Detail">
                             <img src="images/Valorant.jpg" alt="Valorant">
                             <div class="game-info">
-                                    <h3 class="game-title">2. Valorant</h3>
-                                    <p><label><b>Genre:</b></label>
-                                        <span>Shooter</span>
-                                        <span>Multiplayer</span>
-                                    </p>
+                                    <h2 class="game-title">Valorant</h2>
                                     <div class="platformers">
-                                        <h4>Available on:</h4>
                                         <span>PC</span>
                                     </div>
                                     <div class="about-section">
-                                        <h4>About This game</h4>
+                                        <h3>About This game</h3>
                                         <p>
                                             Valorant is a free-to-play first-person shooter developed and published by Riot Games.
                                             The game features a tactical gameplay style where players assume the roles of "agents," each with unique abilities.
@@ -514,13 +434,13 @@
                                         </p>
                                     </div>
                                     <div class="game-trailer">
-                                        <h4>Game Trailer</h4>
+                                        <h3>Game Trailer</h3>
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/lWr6dhTcu-E?si=8H8UM-NJqQ_d3DYB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     </div>
 
                                     <div class="Game-requirement">
                                         <div>
-                                            <h4>Minimum Requirements:</h4>
+                                            <h3>Minimum Requirements:</h3>
                                             <ul>
                                                 <li>OS: Windows 7/8/10 64-bit</li>
                                                 <li>Processor: Intel Core 2 Duo E8400</li>
@@ -531,7 +451,7 @@
                                         </div>
 
                                         <div>
-                                            <h4>Recommended Requirements:</h4>
+                                            <h3>Recommended Requirements:</h3>
                                             <ul>
                                                 <li>OS: Windows 10 64-bit</li>
                                                 <li>Processor: Intel i3-4150</li>
@@ -551,19 +471,14 @@
                         <div class="Game-Detail">
                             <img src="images/RV_there_yet.jpg" alt="RV There Yet">
                             <div class="game-info">
-                                    <h3 class="game-title">3. RV There Yet</h3>
-                                    <p><label><b>Genre:</b></label>
-                                        <span>Adventure</span>
-                                        <span>Multiplayer</span>
-                                    </p>
+                                    <h2 class="game-title">RV There Yet</h2>
                                     <div class="platformers">
-                                        <h4>Available on:</h4>
                                         <span>PC</span>
                                         <span>PlayStation</span>
                                         <span>Xbox</span>
                                     </div>
                                     <div class="about-section">
-                                        <h4>About This game</h4>
+                                        <h3>About This game</h3>
                                         <p>
                                             RV There Yet is a multiplayer adventure game where players embark on road trips in customizable RVs.
                                             The game emphasizes exploration, teamwork, and completing various challenges while traveling to different destinations.
@@ -574,12 +489,12 @@
                                         </p>
                                     </div>
                                     <div class="game-trailer">
-                                        <h4>Game Trailer</h4>
+                                        <h3>Game Trailer</h3>
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/H7mXFwVNX6Y?si=pZfnpHsV_XqUcb7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     </div>
                                     <div class="Game-requirement">
                                         <div>
-                                            <h4>Minimum Requirements:</h4>
+                                            <h3>Minimum Requirements:</h3>
                                             <ul>
                                                 <li>Need special kind of brain and patience</li>
                                                 <li>OS: Windows 7/8/10 64-bit</li>
@@ -591,7 +506,7 @@
                                         </div>
 
                                         <div>
-                                            <h4>Recommended Requirements:</h4>
+                                            <h3>Recommended Requirements:</h3>
                                             <ul>
                                                 <li>OS: Windows 10 64-bit</li>
                                                 <li>Processor: Intel Core i5-4460</li>
@@ -605,37 +520,19 @@
                             </div>        
                         </div>
                     
-                    
-                </div> <!--end of multiplayer game-->
             
-
-
-            
-                <div class="horror_game">
-                    <h2 id="Horror">Horror Games</h2>
-                    <p>Dare to face your fears with our curated list of horror games. 
-                        From psychological thrillers to survival horrors, these games will test your 
-                        courage and keep you on edge.
-                    </p>
-
                     <!--first game-->
                         <div class="Game-Detail">
                             <img src="images/Resident_evil_village.jpg" alt="Resident Evil Village">
                             <div class="game-info">
-                                    <h3 class="game-title">1. Resident Evil Village</h3>
-                                    <p><label><b>Genre:</b></label>
-                                        <span>Horror</span>
-                                        <span>Action</span>
-                                        <span>Adventure</span>
-                                </p>
+                                    <h2 class="game-title">Resident Evil</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PC</span>
                                     <span>PlayStation</span>
                                     <span>Xbox</span>
                                 </div>
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         Resident Evil Village is a survival horror game developed and published by Capcom.
                                         It is the eighth major installment in the Resident Evil series and follows Ethan Winters as he searches for his kidnapped daughter in a mysterious village filled with terrifying creatures.
@@ -651,7 +548,7 @@
                                 </div>
                                 <div class="Game-requirement">
                                     <div>
-                                        <h4>Minimum Requirements:</h4>
+                                        <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10</li>
                                             <li>Processor: Intel Core i5-7500</li>
@@ -662,7 +559,7 @@
                                     </div>
 
                                     <div>
-                                        <h4>Recommended Requirements:</h4>
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10/11</li>
                                             <li>Processor: Intel Core i7-8700</li>
@@ -682,20 +579,14 @@
                         <div class="Game-Detail">
                             <img src="images/Dying_Light_Beast.jpg" alt="Dying Light">
                             <div class="game-info">
-                                    <h3 class="game-title">2. Dying Light</h3>
-                                    <p> <label><b>Genre: </b></label>
-                                        <span>Action</span>
-                                        <span>Horror</span>
-                                        <span>RPG</span>
-                                    </p>
+                                    <h2 class="game-title">Dying Light</h2>
                                 <div class="platformers">
-                                    <h4>Available on:</h4>
                                     <span>PC</span>
                                     <span>PlayStation</span>
                                     <span>Xbox</span>
                                 </div>
                                 <div class="about-section">
-                                    <h4>About This game</h4>
+                                    <h3>About This game</h3>
                                     <p>
                                         Dying Light is a first-person action survival horror game developed by Techland and published by Warner Bros. Interactive Entertainment.
                                         Set in a post-apocalyptic open world overrun by zombies, players take on the role of Kyle Crane, an undercover agent sent to infiltrate a quarantine zone.
@@ -706,12 +597,12 @@
                                     </p>
                                 </div>
                                 <div class="game-trailer">
-                                    <h4>Game Trailer</h4>
+                                    <h3>Game Trailer</h3>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/CWX6DbAMTR4?si=JYp8vjhWK-cL65X1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                                 <div class="Game-requirement">
                                     <div>
-                                        <h4>Minimum Requirements:</h4>
+                                        <h3>Minimum Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 7 64-bit</li>
                                             <li>Processor: Intel Core i5-2500 / AMD FX-8320</li>
@@ -722,7 +613,7 @@
                                     </div>
 
                                     <div>
-                                        <h4>Recommended Requirements:</h4>
+                                        <h3>Recommended Requirements:</h3>
                                         <ul>
                                             <li>OS: Windows 10 64-bit</li>
                                             <li>Processor: Intel Core i5-4670K / AMD Ryzen 5 1500X</li>
@@ -742,20 +633,14 @@
                         <div class="Game-Detail">
                             <img src="images/The_EvilWithin.jpg" alt="The Evil Within">
                             <div class="game-info">
-                                    <h3 class="game-title">3. The Evil Within</h3>
-                                    <p><label><b>Genre:</b> </label>
-                                        <span>Action</span>
-                                        <span>Horror</span>
-                                        <span>Survival</span>
-                                    </p>
+                                    <h2 class="game-title">The Evil Within</h2>
                                     <div class="platformers">
-                                        <h4>Available on:</h4>
                                         <span>PC</span>
                                         <span>PlayStation</span>
                                         <span>Xbox</span>
                                     </div>
                                     <div class="about-section">
-                                        <h4>About This game</h4>
+                                        <h3>About This game</h3>
                                         <p>
                                             The Evil Within is a survival horror game developed by Tango Gameworks and published by Bethesda Softworks.
                                             Players control Sebastian Castellanos, a detective who finds himself trapped in a nightmarish world filled with grotesque creatures and psychological horrors.
@@ -766,12 +651,12 @@
                                         </p>
                                     </div>
                                     <div class="game-trailer">
-                                        <h4>Game Trailer</h4>
+                                        <h3>Game Trailer</h3>
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/H2qITQHud2I?si=qOx3fql95TfaSxWm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     </div>
                                     <div class="Game-requirement">
                                         <div>
-                                            <h4>Minimum Requirements:</h4>
+                                            <h3>Minimum Requirements:</h3>
                                             <ul>
                                                 <li>OS: Windows 7/8/8.1/10 (64-bit)</li>
                                                 <li>Processor: Intel Core i5-2400 / AMD FX-8320</li>
@@ -782,7 +667,7 @@
                                         </div>
 
                                         <div>
-                                            <h4>Recommended Requirements:</h4>
+                                            <h3>Recommended Requirements:</h3>
                                             <ul>
                                                 <li>OS: Windows 10 (64-bit)</li>
                                                 <li>Processor: Intel Core i7-3770 / AMD FX-8350</li>
@@ -794,37 +679,14 @@
                                     </div>    
                             </div>
                         </div>
+        </div>
                     
-
-                </div> <!--end of horror game-->
-            
-
-        </div> <!--end of game genre-->
     </main>
 
-
-   <footer>
-        <div>
-            <div>
-                <b>Main purpose</b>
-                <p>
-                    video games are a great way to escape, connect with other, and build skills.
-                    but with so many games out there ,it can be tough to find one you will love.
-                    we will find current information about video games to help you find the perfect game for you.
-                </p>
-                <div><p>&#169; 2025 Game recommendations</p></div> 
-            </div>
-           
-            <div>
-                <p>Follow us on social media:</p>
-                <span><a href="https://www.facebook.com/">Facebook </a></span>
-                <span><a href="https://www.twitter.com/">Twitter </a></span>
-                <span><a href="https://www.instagram.com/">Instagram </a></span>
-                <span><a href="https://www.discord.com/">Discord</a></span>
-            </div>
-
-             <span><a href="#goup">&UpArrow;</a></span>
-        </div> 
+     <footer>
+        <p>GameShowcase &copy; 2026 | Created For Fun</p>
+        <p>All game information</p>
     </footer>
+
 </body>
 </html>

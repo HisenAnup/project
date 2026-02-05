@@ -13,7 +13,7 @@ a{
     font-weight: bolder;
 }
 
-a:hover{
+main a:hover{
     background-color: orangered;
     border-radius: 8px;
     padding: 3px;
@@ -31,7 +31,6 @@ span:hover{
     background-color: orangered;
     transform: translateY(-5px);
     border-style: solid;
-    font-weight: 500;
     color: #121212;
     border-width: 2px;
     border-radius: 8px;
@@ -40,46 +39,20 @@ span:hover{
 
 /*-----------------------------header style section ----------------------------------- */
 
-  header{
-    background-color: white;
+header{
     width: 100%;
 }
 
 header h1{
+    color: white;
     text-align: center;
     padding: 20px;
 }
 
-header nav{
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 10px;
- }
-
-header ul{
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.head-info{
     text-align: center;
+    padding: 16px;
 }
-
-header li a{
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: 1000;
-    font-size: 15px;
- }
-
-header li a:hover{
-    background-color: rgb(234, 230, 230);
-    border-radius: 8px;
-}
-
 
 /*---------------------------------main container style-------------------------------*/
 
@@ -90,12 +63,12 @@ main{
 
 img{
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(212, 17, 203, 0.521);
 }
 
 img:hover{
     transform: scale(1.05);
     transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(212, 17, 203, 0.521);
 }
 
 .Game-requirement{
@@ -182,7 +155,6 @@ span{
 }
 
 .Game-Detail{
-    display: block;
     padding: 15px;
     border-radius: 8px;
     margin-top: 30px;
@@ -198,7 +170,27 @@ span{
     margin-top: 30px;
 }
 
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.Game-Detail:hover{
+        transform: translateY(-10px);
+        transition: transform 0.9s;
+         box-shadow: 0 4px 8px rgba(189, 228, 11, 0.521);
+}
+
 @media (max-width: 768px) {
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 1000px) {
     .Game-requirement{
         grid-template-columns: 1fr;
     }
@@ -207,8 +199,3 @@ span{
 
 /*---------------------------footer style section--------------------------- */
 
-footer{
-    background-color: #007BFF;
-    padding: 40px;;
-    color: white;
- }

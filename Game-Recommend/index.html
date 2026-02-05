@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamezone</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 </head>
 <body>
-    <header id="goup">
+    <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -16,16 +18,18 @@
                 <li><a href="game_detail.html">Game detail</a></li>
             </ul>
         </nav>
+
+        <div class="head-info">
+                <h1>PLAYBASE</h1>
+        
+                <div id="Welcome-section">
+                    <p>Find the game based on its category and detail system requirement</p>
+        </div>
+        
     </header>
 
     <main>
-        <h1>Welcome To The Gaming Recommendation Web Page</h1>
         
-                <div id="Welcome-section">
-                    <p>Find your next favorite game with our easy-to-use recommendation page. 
-                        Whether you're into action, adventure, RPGs, or horror games, we've got you covered.
-                        Use the links below to explore games by genre and discover new titles that match your interests.
-                    </p>
                     <h2>Explore by Genre:</h2>
                     <span> <a href="#Action">Action</a></span>    
                     <span><a href="#Adventure">Adventure</a></span>
@@ -36,7 +40,7 @@
         
                 <div class="game-list">
                                     <div id="Action">
-                                        <h2>Top Action game</h2>
+                                        <h2>Action game</h2>
                                             <div class="contents">
                                                 <div class="game_card">
                                                     <figure id="game_picture">
@@ -45,13 +49,6 @@
                                                     <div class="game-info">
                                                         <h3>Elden Ring</h3>
                                                         <p>Release: <time datetime="">2022</time></p>
-                                                        <p>Platform: 
-                                                            <span>PC</span>
-                                                            <span>PS4</span>
-                                                            <span>PS5</span>
-                                                            <span>Xbox One</span>
-                                                            <span>Xbox Series X/S</span>
-                                                        </p>
                                                     </div>
                                                    
                                                 </div>
@@ -63,10 +60,6 @@
                                                     <div class="game-info">
                                                         <h3>God of War Ragnarok</h3>
                                                         <p>Release: <time datetime="">2022</time></p>
-                                                        <p>platform: 
-                                                            <span>PS4</span>
-                                                            <span>PS5</span>
-                                                        </p>
                                                     </div>
                                                     
                                                 </div>
@@ -77,13 +70,7 @@
                                                     </figure>
                                                     <div class="game-info">
                                                             <h3>Sekiro: Shadows Die Twice</h3>
-                                                            <p>Release: <time datetime="">2019</time></p>
-                                                            <p> Platform:
-                                                                <span>PC</span>
-                                                                <span>Xbox One</span>
-                                                                <span>PS4</span>
-                                                            </p>
-                                                    </div>
+                                                            <p>Release: <time datetime="">2019</time></p>                                                    </div>
                                                 </div>
                                             </div>
                                     </div>
@@ -91,7 +78,7 @@
 
                             <!--------Adventure------>
                                     <div id="Adventure">
-                                       <h2>Top Adventure Game</h2>
+                                       <h2>Adventure Game</h2>
                                         <div class="contents">
                                             <div class="game_card">
                                                     <figure id="game_picture">
@@ -100,10 +87,6 @@
                                                     <div class="game-info">
                                                         <h3>Last of Us Part I</h3>
                                                         <p>Release: <time datetime="">2022</time></p>
-                                                        <p>Platform: 
-                                                            <span>PC</span>
-                                                            <span>PS5</span>
-                                                        </p>
                                                     </div>  
                                             </div>
                                             <div class="game_card">
@@ -113,11 +96,6 @@
                                                     <div class="game-info">
                                                         <h3>Red Dead Redemption 2</h3>
                                                         <p>Release: <time datetime="">2018</time></p>
-                                                        <p>Platform: 
-                                                            <span>PC</span>
-                                                            <span>PS4</span>
-                                                            <span>Xbox One</span>
-                                                        </p>
                                                     </div>
                                             </div>
                                             <div class="game_card">
@@ -127,12 +105,6 @@
                                                     <div class="game-info">
                                                         <h3>The Witcher 3: Wild Hunt</h3>
                                                         <p>Release: <time datetime="">2015</time></p>
-                                                        <p>Platform: 
-                                                            <span>PC</span>
-                                                            <span>PS4</span>
-                                                            <span>Xbox One</span>
-                                                            <span>Nintendo Switch</span>
-                                                        </p>
                                                     </div>
                                             </div> 
                                         </div>
@@ -141,19 +113,13 @@
 
                             <!-----Multiplayer----->
                                     <div id="Multiplayer">
-                                       <h2>Top co-op game</h2>
+                                       <h2>Co-Op Game</h2>
                                        <div class="contents">
                                                     <div class="game_card">
-                                                        <figure id="game_picture"><img src="images/Grand_Theft_Auto_V.png" alt=""></figure>
+                                                        <figure id="game_picture"><img src="images/Grand_Theft_Auto_V.png" alt="GTA"></figure>
                                                         <div class="game-info">
                                                             <h3>Grand Theft Auto V</h3>
                                                             <p>Release: <time datetime="">2013</time></p>
-                                                            <p>Platform: 
-                                                                <span>PC</span>
-                                                                <span> PS4</span>
-                                                                <span>Xbox 360</span>
-                                                                <span> Xbox One</span>
-                                                            </p>
                                                         </div>
                                                     </div>
                                                     <div class="game_card">
@@ -161,21 +127,13 @@
                                                         <div class="game-info">
                                                             <h3>Valorant</h3>
                                                             <p>Release: <time datetime="">2020</time></p>
-                                                            <p>platform: <span>PC</span></p>
                                                         </div>
                                                     </div>
                                                     <div class="game_card">
                                                         <figure id="game_picture"><img src="images/RV_there_yet.jpg" alt=""></figure>
                                                         <div class="game-info">
-                                                            <h3>Rv there yet</h3>
+                                                            <h3>Rv There Yet</h3>
                                                             <p>Release: <time datetime="">2025</time></p>
-                                                            <p>platform: 
-                                                                <span>PC</span>
-                                                                <span>PS5</span>
-                                                                <span>Xbox</span>
-                                                                <span>PS4</span>
-                                                                <span>One</span>
-                                                            </p>
                                                         </div>
                                                     </div>
                                        </div>
@@ -184,21 +142,15 @@
 
                             <!-------Horror------>
                                     <div id="Horror">
-                                        <h2>Top horror game</h2>
+                                        <h2>Horror Game</h2>
                                         <div class="contents">
                                                 <div class="game_card">
                                                     <figure id="game_picture">
                                                         <img src="images/Resident_evil_village.jpg" alt="">
                                                     </figure>
                                                     <div class="game-info">
-                                                        <h3>Resident Evil Village</h3>
+                                                        <h3>Resident Evil</h3>
                                                         <p>Release: <time datetime="">2021</time></p>
-                                                        <p>Platform: 
-                                                            <span>PC</span>
-                                                            <span>PS4</span>
-                                                            <span>PS5</span>
-                                                            <span>Xbox One</span>
-                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="game_card">
@@ -208,11 +160,6 @@
                                                     <div class="game-info">
                                                         <h3>Dying Light</h3>
                                                         <p>Release: <time datetime="">2015</time></p>
-                                                        <p>Platform:
-                                                            <span>PC</span>
-                                                            <span>PS4</span>
-                                                            <span>Xbox One</span>
-                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="game_card">
@@ -220,11 +167,6 @@
                                                     <div class="game-info">
                                                         <h3>The Evil Within</h3>
                                                         <p>Release: <time datetime="">2014</time></p>
-                                                        <p>Platform:
-                                                            <span>PC</span>
-                                                            <span>PS3</span>
-                                                            <span>Xbox 360</span>
-                                                        </p>
                                                     </div>
                                                 </div>
                                         </div>
@@ -232,28 +174,10 @@
                 </div>
     </main>
 
-    <footer>
-        <div>
-            <div>
-                <b>Main purpose</b>
-                <p>
-                    video games are a great way to escape, connect with other, and build skills.
-                    but with so many games out there ,it can be tough to find one you will love.
-                    it help you find the perfect game for you.
-                </p>
-                <div><p>&#169; 2025 Game recommendations</p></div> 
-            </div>
-           
-            <div id="followup">
-                <p>Follow us on social media:</p>
-                <a href="https://www.facebook.com/">Facebook</a>
-                <a href="https://www.twitter.com/">Twitter</a>
-                <a href="https://www.instagram.com/">Instagram</a>
-                <a href="https://www.discord.com/">Discord</a>
-            </div>
-
-             <div><a href="#goup">&UpArrow;;</a></div>
-        </div> 
+     <footer>
+        <p>GameShowcase &copy; 2026 | Created For Fun</p>
+        <p>All game information</p>
     </footer>
+
 </body>
 </html>

@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us >> GameReco</title>
-    <link rel="stylesheet" href="CSS/gameDetail.css">
     <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 </head>
 <body>
-    <header id="goup">
+    <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,80 +20,44 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Contact Us</h1>
-            <p>we can be contacted any of the following means below
-                where you can reach out to us for any inquiries or support.</p>
-            
-                <fieldset>
-                    <legend>Direct Email</legend>
+    <main>   
+        <section class="contact-section">
+            <h2>Contect Us</h2>
+            <div class="contact-container">
+
+                <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-detail">
+                            <p><img src="images/Email.png" alt="">ABC@gmail.com</p>
+                            <p><b>Phone number:</b>123-456-7891</p>
+                            <p><b>Location: </b>Gaming zone</p>
+                        </div>
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="https://discord.com"><img src="images/Discort.png" alt=""></a>
+                            <a href="https://instagram.com"><img src="images/instagram.png" alt=""></a>
+                        </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us message</h3>
                     <form action="GET">
-                        <div>
-                            <label for="name">Full name:</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-
-                        <div>
-                            <label for="subject">Subject:</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-
-                        <div>
-                            <label for="email">Email: <img src="images/Email.png" alt="" width="20" height="20"></label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
                             <input type="email" id="email" name="email" placeholder="example@gmail.com">
-                        </div>
-
-                        <div>
-                            <label for="message">Message Section:</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-                        </div>
-
+                            <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
                         <div id="submit-btn">
                             <button type="submit" value="submit">Submit</button>
                         </div>
                     </form>
-                </fieldset>
+                </div>   
+            </div>    
+        </section>                    
+  </main>
 
-                <fieldset>
-                    <legend>Social Media</legend>
-                    <div>
-                        <p>Follow us on social media platforms to stay updated:</p>
-                        <a href="https://discord.com">
-                            <img src="images/Discort.png" alt="" width="30" height="20">
-                            Discord
-                        </a> |
-                        <a href="https://instagram.com">
-                            <img src="images/Instagram.png" alt="" width="20" height="20">
-                            Instagram
-                        </a>
-                    </div>
-                </fieldset>
-        </div>
-    <div>
-  </main>       
-    <footer>
-        <div>
-            <div>
-                <b>Main purpose</b>
-                <p>
-                    video games are a great way to escape, connect with other, and build skills.
-                    but with so many games out there ,it can be tough to find one you will love.
-                </p>
-                <div><p>&#169; 2025 Game recommendation</p></div>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <p>Follow us on social media:</p>
-                <span> <a href="https://www.facebook.com/">Facebook</a></span>
-                <span><a href="https://www.twitter.com/">Twitter</a></span>
-                <span><a href="https://www.instagram.com/">Instagram</a></span>
-                <span><a href="https://www.discord.com/">Discord</a></span>
-            </div>
-            <span><a href="#goup">&UpArrow;</a></span>
-             
-        </div> 
-    </footer>    
+   <footer>
+        <p>GameShowcase &copy; 2026 | Created For Fun</p>
+        <p>All game information</p>
+    </footer>
 </body>
 </html>
